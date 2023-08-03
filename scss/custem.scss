@@ -1,0 +1,144 @@
+/* define variables for the primary colors */
+$h-color: #333;
+$p-color:#666;
+$footer-color:#888;
+$hover:#52ab98;
+$back-color: #9ce7d6c7 ;
+
+.line-h {
+    max-width: 61px ;
+    margin: 10px auto ;
+    border: 2px solid #131313 ;
+    opacity: .8;
+};
+.line-a {
+    max-width: 30px ;
+    margin: 5px auto ;
+    border: 2px solid #131313 ;
+    opacity: .8;
+   
+   
+}
+.h2 {
+    font-weight: 800;
+    font-family: 'Rubik', sans-serif;
+    color: $h-color;
+};
+.h5 {
+    font-weight: 800;
+    font-family: 'Rubik', sans-serif;
+    color: $h-color;
+};
+
+.foter {
+    color: $footer-color;
+};
+
+.dark {
+    background-color: $back-color ;
+}
+
+
+
+body {
+    box-sizing: 0;
+    padding: 0;
+    margin: 0;
+    font-family: 'Rubik', sans-serif;
+    
+};
+
+.header {
+    .first {
+        div {
+            color:$p-color;
+            font-weight: bold;
+            background-color: $back-color;
+
+        }
+    }
+};
+
+.nav-css {
+    div {
+        ul {
+            li {
+                a {
+                    font-size: 17px;
+                    margin-left: 15px;
+                    font-weight: 600;
+                    font-family: 'Rubik', sans-serif;
+                    color: $h-color;
+                };
+
+                a:hover {
+                    color: $hover;
+                  
+                };
+                
+
+               
+            };
+        };
+    };
+};
+
+.main-carousel {
+    position: relative;
+    width: 100%;
+    z-index: 1;
+
+    .overlay {
+        background: rgb(82 171 152 / 50%);
+        position: absolute;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        height: 100%;
+        width: 100%;
+        z-index: 2;
+        
+    };
+
+    .b-p {
+        z-index: 33;
+    }
+};
+
+.content {
+
+    font-family: 'Rubik', sans-serif;
+
+   
+
+    
+    p {
+        color: $p-color;
+        text-align: justify;
+    };
+    
+};
+
+
+.staff-h5 {
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    color: $h-color
+};
+
+.footer {
+
+    padding: 30px 0;
+    
+    a {
+        text-decoration: none;
+    }
+
+    .icon-link{
+        text-decoration: none;
+        letter-spacing: 4.7px;
+        font-size: 20px;
+    }
+}
